@@ -1,3 +1,11 @@
+/** all*/
+body {
+  width: 80%;
+  margin: 0px 15%;
+}
+
+/** @sarah nav bar and footer should be 100% width */
+
 /** index.php*/
 #about{
   width: 70%;
