@@ -5,13 +5,14 @@
   <meta charset="utf-8">
   <title>Hearsay A Cappella</title>
   <link rel="stylesheet" type ="text/css" href="styles/all.css" media="all"/>
+  <link href="https://fonts.googleapis.com/css?family=Khula" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Qwigley" rel="stylesheet">
 </head>
 
 <body id="about">
-
-  <?php
-   include "includes/navigation.php";
-   ?>
+  <!-- <?php
+   include "includes/navigation_index.php";
+   ?> -->
 
    <div class="body_container">
      <!-- photo -->

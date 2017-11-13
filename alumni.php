@@ -9,6 +9,8 @@
   <link rel="stylesheet" type ="text/css" href="styles/members.css" media="all"/>
   <script src="scripts/jquery-3.2.1.min.js" type="text/javascript"></script>
   <script src="scripts/members.js" type="text/javascript"></script>
+  <link href="https://fonts.googleapis.com/css?family=Khula" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Imprima" rel="stylesheet">
 </head>
 
 <body>
@@ -24,10 +26,12 @@
        all things Hearsay.</p>
    </div>
 
-   <p>Sign up for our listserve!</p>
-   Email: <input id="alum_email" name="email" type="email">
+     <p>Sign up for our listserve!</p>
+     <span>Email: </span><input id="alum_email" name="email" type="email">
 
-   <!-- need to validate email -->
+     <!-- need to validate email; include source! -->
+
+  </div>
 
    <!-- <?php
    include "includes/footer.php";

@@ -9,6 +9,10 @@
 
 <body>
 
+    <?php
+     include "includes/navigation.php";
+     ?>
+
   <h1>FAQs</h1>
 
   <h1>What song should I choose for my solo and how do I know it’s a good

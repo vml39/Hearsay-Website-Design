@@ -7,6 +7,11 @@
 
 h1 {
   text-align: center;
+  font-family: "Imprima", sans-serif;
+}
+
+p, span {
+  font-family: "Khula", sans-serif;
 }
 /** navigation bar*/
 
@@ -15,9 +20,15 @@ img[src="images/frontpage-cover.jpg"] {
   padding: 0px;
 }
 
+img[src="images/page-cover.png"] {
+  width: 100%;
+  padding: 0px;
+}
+
 img[src="images/logo.png"] {
   width: 15%;
 }
+
 
 .logo {
   padding: 10px;
@@ -81,6 +92,8 @@ img[src="images/logo.png"] {
   text-decoration: none;
 }
 
+/** footer */
+
 .footer {
   background-color: #f7f7f7;
   margin: auto;
@@ -119,11 +132,4 @@ img[src="images/logo.png"] {
 /** index.php */
 #about p{
   text-align: center;
-  font-family: sans-serif;
-}
-
-/** alumni.php */
-#alum {
-  background-color: gray;
-  padding: 8px;
 }
