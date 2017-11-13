@@ -18,7 +18,10 @@
 
    <h1>Alumnae</h1>
    <div id="alum">
-     <p>If you are an alumna of Hearsay, we would love to hear from you! Please email hearsayacappella@gmail.com and let us know what you are up to. We will also add you to our alumnae listserve to keep you up to date with all things Hearsay.</p>
+     <p>If you are an alumna of Hearsay, we would love to hear from you! Please
+       email hearsayacappella@gmail.com and let us know what you are up to.
+       We will also add you to our alumnae listserve to keep you up to date with
+       all things Hearsay.</p>
    </div>
 
    <p>Sign up for our listserve!</p>
