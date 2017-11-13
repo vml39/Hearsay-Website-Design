@@ -8,6 +8,8 @@
   <link rel="stylesheet" type ="text/css" href="styles/members.css" media="all"/>
   <script src="scripts/jquery-3.2.1.min.js" type="text/javascript"></script>
   <script src="scripts/members.js" type="text/javascript"></script>
+  <link href="https://fonts.googleapis.com/css?family=Khula" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Imprima" rel="stylesheet">
 </head>
 
 <body>
@@ -18,20 +20,21 @@
    <h1>Current Members</h1>
 
    <!-- display members in a grid fashion with three profiles per grid -->
+   <!-- tried to do a popup modal but still trying to figure it out -->
    <div class="container">
     <div class="first profile">
-      <!-- trigger the modal -->
-      <button id="modal_btn">
+      <!-- trigger the modal
+      <button id="modal_btn"> -->
         <img alt="" src="images/gray.jpg">
-      </button>
-      <!-- modal -->
+      <!-- </button>
+      modal
       <div id="modal">
-      <!-- modal content -->
+      modal content
         <div id="modal_content">
           <span class="close">&times;</span>
           <p>some stuff that pops up</p>
         </div>
-      </div>
+      </div> -->
     </div>
     <div class="second profile">
       <img alt="" src="images/gray.jpg">

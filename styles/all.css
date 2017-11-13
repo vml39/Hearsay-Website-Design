@@ -6,6 +6,11 @@ body {
 
 h1 {
   text-align: center;
+  font-family: "Imprima", sans-serif;
+}
+
+p, span {
+  font-family: "Khula", sans-serif;
 }
 
 /** @sarah nav bar and footer should be 100% width */
@@ -13,11 +18,4 @@ h1 {
 /** index.php */
 #about p{
   text-align: center;
-  font-family: sans-serif;
-}
-
-/** alumni.php */
-#alum {
-  background-color: gray;
-  padding: 8px;
 }
