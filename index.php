@@ -10,7 +10,7 @@
 <body id="about">
 
   <?php
-   include "includes/navigation.php";
+   include "includes/navigation_index.php";
    ?>
 
    <div class="body_container">
