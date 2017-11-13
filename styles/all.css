@@ -4,43 +4,20 @@ body {
   margin: 0px 15%;
 }
 
+h1 {
+  text-align: center;
+}
+
 /** @sarah nav bar and footer should be 100% width */
 
-/** index.php*/
+/** index.php */
 #about p{
   text-align: center;
   font-family: sans-serif;
 }
 
-/** grid for member pages */
-.container{
-  display: grid;
-  width: 90%;
-  margin: auto;
-  grid-template-columns: 33.33% 33.33% 33.33%;
-}
-
-.container img{
-  margin: 4%;
-  width: 92%;
-}
-
-.first{
-  grid-column: 1;
-}
-
-.second{
-  grid-column: 2;
-}
-
-.third{
-  grid-column: 3;
-}
-
-.modal{
-
-}
-
-.modalcontent{
-
+/** alumni.php */
+#alum {
+  background-color: gray;
+  padding: 8px;
 }
