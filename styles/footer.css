@@ -1,0 +1,34 @@
+
+.footer {
+  background-color: #f7f7f7;
+  margin: auto;
+  padding: 0;
+  display: block;
+}
+
+.footer ul {
+  list-style-type: none;
+  bottom: 20%;
+  overflow: hidden;
+  background-color: #f7f7f7;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.footer li {
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5%;
+}
+
+.footer li a {
+    font-size: 30pt;
+    color: black;
+    text-align: center;
+    padding 0;
+  }
+
+.fa {
+  color: #000;
+}

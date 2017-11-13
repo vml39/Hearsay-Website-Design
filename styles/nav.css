@@ -1,0 +1,74 @@
+img[src="images/frontpage-cover.jpg"] {
+  width: 100%;
+  padding: 0px;
+}
+
+img[src="images/logo.png"] {
+  width: 15%;
+}
+
+.logo {
+  padding: 10px;
+  display: inline-block;
+  position: fixed;
+  text-align: center;
+
+}
+
+.nav1 ul {
+  list-style-type: none;
+  padding-left: 16%;
+  overflow: hidden;
+  width: 100%;
+  text-align: left;
+  position: fixed;
+}
+
+.nav2 ul {
+  list-style-type: none;
+  padding-left: 58%;
+  overflow: hidden;
+  width: 100%;
+  text-align: left;
+  position: fixed;
+}
+
+.nav1 li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.nav2 li {
+  display: inline-block;
+  padding: 20px;
+
+}
+
+.nav1 li a {
+  display: block;
+  font-family: helvetica;
+  font-size: 12pt;
+  color: white;
+  padding: 5px 5px;
+}
+
+.nav2 li a {
+  display: block;
+  font-family: helvetica;
+  font-size: 12pt;
+  color: white;
+  padding: 5px 5px;
+}
+
+.nav1 li a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav2 li a {
+  color: white;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 414px) {
+}
