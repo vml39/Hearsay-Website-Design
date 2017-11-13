@@ -1,3 +1,7 @@
+<head>
+<!---Font Awesome Icons used are sourced from https://www.w3schools.com/icons/default.asp--->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 
 <div class="nav1">
   <ul>
@@ -19,4 +23,4 @@
   </ul>
 </div>
 
-<img src="images/pages-cover.jpg" alt="pages-cover">
+<img src="images/frontpage-cover.jpg" alt="frontpage-cover">
