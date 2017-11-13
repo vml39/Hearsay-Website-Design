@@ -8,9 +8,6 @@
 </head>
 
 <body id="about">
-  <a href="current_members.php">Members</a>
-  <a href="alumni.php">Alumni</a>
-  <a href="contact.php">Contact us</a>
   <!-- <?php
    include "includes/navigation.php";
    ?> -->

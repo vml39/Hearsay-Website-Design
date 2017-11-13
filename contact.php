@@ -1,65 +1,52 @@
-<!DOCTYPE html>
-<html>
+  <!DOCTYPE html>
+  <html>
 
-<head>
-  <meta charset="utf-8">
-  <title>Hearsay A Cappella</title>
-  <link rel="stylesheet" type ="text/css" href="styles/all.css" media="all"/>
-</head>
+  <head>
+    <meta charset="utf-8">
+    <title>Hearsay A Cappella</title>
+    <link rel="stylesheet" type ="text/css" href="styles/all.css" media="all"/>
+    <link rel="stylesheet" type ="text/css" href="styles/contact.css" media="all"/>
+    <script src="scripts/jquery-3.2.1.min.js" type="text/javascript"></script>
+    <script src="scripts/contact.js" type="text/javascript"></script>
+  </head>
 
-<body>
-  <!-- <?php
-  include "includes/navigation.php";
-  ?> -->
+  <body>
+    <!-- <?php
+    include "includes/navigation.php";
+    ?> -->
 
-  <h1>Contact Us</h1>
+    <h1>Contact Us</h1>
 
-  <p>We would love to hear from you. If you would like to know where we are performing next, information about our semester concert, would like us to perform at your event, or anything else, just ask!</p>
+    <p>We would love to hear from you. If you would like to know where we are performing next, information about our semester concert, would like us to perform at your event, or anything else, just ask!</p>
 
-  <div class="labelAndInputHolder">
-    <div class="labelHolder">
-      <label for="name">Name(required): </label>
-    </div>
-    <div class="inputHolder">
-      <input id="name" name="name" required>
-    </div>
-    <!-- this error message is hidden by default -->
-    <span class="errorContainer hiddenError" id="nameError">
-      Name is required.
-    </span>
-  </div>
+    <form id="contactForm" action="contact-response.php" method="post" novalidate>
+      Name (required)<br/>
+      <input id="name" class="formInput" name="name" type="text" required>
+      <!-- this error message is hidden by default -->
+      <span class="errorContainer hiddenError" id="nameError">
+        <br/>Name is required.
+      </span>
 
-  <div class="labelAndInputHolder">
-    <div class="labelHolder">
-      <label for="email">Email(required): </label>
-    </div>
-    <div class="inputHolder">
-      <input id="email" name="email" required>
-    </div>
-    <!-- this error message is hidden by default -->
-    <span class="errorContainer hiddenError" id="emailError">
-      Email is required.
-    </span>
-  </div>
+      <br/>Email (required)<br/>
+      <input id="email" class="formInput" name="email" type="email" required>
+      <!-- this error message is hidden by default -->
+      <span class="errorContainer hiddenError" id="emailError">
+        <br/>A valid email is required.
+      </span>
 
-  <div class="labelAndInputHolder">
-    <div class="labelHolder">
-      <label for="message">Message(required): </label>
-    </div>
-    <div class="inputHolder">
-      <textarea id="message" name="message" required></textarea>
-    </div>
-    <!-- this error message is hidden by default -->
-    <span class="errorContainer hiddenError" id="messageError">
-      Message is required.
-    </span>
-  </div>
+      <br/>Message<br/>
+      <textarea id="comments" class="formInput" name="comments" required></textarea>
+      <!-- this error message is hidden by default -->
+      <span class="errorContainer hiddenError" id="messageError">
+        <br/>A message is required.
+      </span>
 
-  <button type="submit" class="submit">Submit</button>
+    <br/><button type="submit" class="submit">Submit</button>
+  </form>
 
 
-  <!-- <?php
-  include "includes/footer.php";
-  ?> -->
+    <!-- <?php
+    include "includes/footer.php";
+    ?> -->
 
-</body>
+  </body>

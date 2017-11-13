@@ -1,5 +1,23 @@
 /** form */
+#comments{
+  width: 500px;
+  height: 200px;
+  border: 1px solid gray;
+}
 
-.submit{
-  
+.submit {
+  font-size: 20px;
+  color: white;
+  background-color: purple; /** replace this with the right shade of purple*/
+  padding: 7px;
+}
+
+.errorContainer {
+  color: #de5454;
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+.hiddenError {
+  display: none;
 }
