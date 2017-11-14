@@ -18,6 +18,7 @@ p, span {
 img[src="images/frontpage-cover.jpg"] {
   width: 100%;
   padding: 0px;
+  z-index: 0;
 }
 
 img[src="images/page-cover.png"] {
@@ -26,70 +27,78 @@ img[src="images/page-cover.png"] {
 }
 
 img[src="images/logo.png"] {
-  width: 15%;
+  width: 100%;
 }
 
+.logo-index {
+    margin: auto;
+    position: absolute;
+    z-index: 1;
+    top: 20%;
+    left: 30%;
+    width: 40%;
+}
 
-.logo {
-  padding: 10px;
-  display: inline-block;
-  position: fixed;
+.nav-index ul {
+  margin: auto;
+  overflow: hidden;
   text-align: center;
-}
-
-.nav1 ul {
-  list-style-type: none;
-  padding-left: 18%;
-  overflow: hidden;
-  width: 100%;
-  text-align: left;
   position: fixed;
-}
-
-.nav2 ul {
-  list-style-type: none;
-  padding-left: 56%;
-  overflow: hidden;
   width: 100%;
-  text-align: left;
-  position: fixed;
+  padding: 10px;
 }
 
-.nav1 li {
+.nav-index li {
   display: inline-block;
-  padding: 20px;
+  padding: 0;
 }
 
-.nav2 li {
-  display: inline-block;
-  padding: 20px;
-
-}
-
-.nav1 li a {
+.nav-index li a {
   display: block;
-  font-family: helvetica;
-  font-size: 12pt;
+  font-family: "Khula";
+  font-size: 10pt;
   color: white;
-  padding: 5px 5px;
-}
-
-.nav2 li a {
-  display: block;
-  font-family: helvetica;
-  font-size: 12pt;
-  color: white;
-  padding: 5px 5px;
-}
-
-.nav1 li a {
-  color: white;
+  padding: 10px 10px;
   text-decoration: none;
 }
 
-.nav2 li a {
+.nav-index a:hover {
+  color: #662d91;
+}
+
+.navlogo {
+  padding: 15px;
+  display: inline-block;
+  position: fixed;
+  text-align: left;
+  width: 10%;
+}
+
+.nav ul {
+  margin: auto;
+  overflow: hidden;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  padding: 10px;
+}
+
+.nav li {
+  display: inline-block;
+  padding: 0;
+}
+
+.nav li a {
+  display: block;
+  font-family: "Khula";
+  font-size: 10pt;
   color: white;
+  padding: 10px 10px;
   text-decoration: none;
+}
+
+.nav a:hover {
+  color: #662d91;
 }
 
 /** footer */
@@ -125,8 +134,8 @@ img[src="images/logo.png"] {
     padding: 0;
   }
 
-.fa {
-  color: #000;
+.footer a:hover {
+  color: #662d91;
 }
 
 /** index.php */
