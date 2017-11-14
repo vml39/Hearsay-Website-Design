@@ -13,7 +13,7 @@
 
 <div class="nav2">
   <ul>
-    <li><a href="">MUSIC</a></li>
+    <li><a href="repertoire.php">MUSIC</a></li>
       <li><a href="faqs.php">FAQ</a></li>
     <li><a href="contact.php">CONTACT</a></li>
   </ul>

@@ -5,11 +5,20 @@
   <meta charset="UTF-8">
   <title>Current Repertoire</title>
   <link rel="stylesheet" type="text/css" href="styles/all.css" media="all"/>
+  <script src="scripts/jquery-3.2.1.min.js" type="text/javascript"></script>
+  <script src="scripts/members.js" type="text/javascript"></script>
+  <link href="https://fonts.googleapis.com/css?family=Khula" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Imprima" rel="stylesheet">
 </head>
 
 <body>
 
-  <h1>Current Repertoire</h1>
+  <?php
+  include "includes/navigation.php";
+  ?>
+
+  <div id="main">
+  <h1 id="title">Current Repertoire</h1>
 
   <p><strong>Hymn For The Weekend</strong></p>
 

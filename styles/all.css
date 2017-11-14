@@ -122,7 +122,7 @@ img[src="images/logo.png"] {
     font-size: 25pt;
     color: #000;
     text-align: center;
-    padding 0;
+    padding: 0;
   }
 
 .fa {
@@ -132,4 +132,15 @@ img[src="images/logo.png"] {
 /** index.php */
 #about p{
   text-align: center;
+}
+
+/** faqs.php, auditions.php, repertoire.php */
+#main {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+
+#title {
+  font-size: 300%;
 }

@@ -5,15 +5,21 @@
   <meta charset="UTF-8">
   <title>FAQs</title>
   <link rel="stylesheet" type="text/css" href="styles/all.css" media="all"/>
+  <script src="scripts/jquery-3.2.1.min.js" type="text/javascript"></script>
+  <script src="scripts/members.js" type="text/javascript"></script>
+  <link href="https://fonts.googleapis.com/css?family=Khula" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Imprima" rel="stylesheet">
 </head>
 
 <body>
 
-    <?php
-     include "includes/navigation.php";
-     ?>
+  <?php
+  include "includes/navigation.php";
+  ?>
 
-  <h1>FAQs</h1>
+  <h1 id="title">FAQs</h1>
+
+  <div id="main">
 
   <h1>What song should I choose for my solo and how do I know it’s a good
     choice?</h1>
@@ -52,5 +58,6 @@
     Depending on the types of performances we have lined up, we may also add
     extra rehearsals here and there.</p>
 
+  </div>
 </body>
 </html>
