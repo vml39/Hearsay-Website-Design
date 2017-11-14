@@ -13,9 +13,9 @@
   </head>
 
   <body>
-    <!-- <?php
+    <?php
     include "includes/navigation.php";
-    ?> -->
+    ?>
 
     <div class="body_container">
 
@@ -38,6 +38,9 @@
           <br/>A valid email is required.
         </span>
 
+        <input type="checkbox" name="listserv" value="No"><span>Would you like to join our listserve?</span><br/>
+        <!-- if isset, then send the email to the hearsay listserv -->
+
         <br/><span>Message</span><br/>
         <textarea id="comments" class="formInput" name="comments" required></textarea>
         <!-- this error message is hidden by default -->
@@ -45,14 +48,16 @@
           <br/>A message is required.
         </span>
 
-      <br/><button type="submit" class="submit">Submit</button>
+      <br/><button type="submit" class="submit" id="contact_submit">Submit</button>
     </form>
+
+    <!-- still need to include php validation; currently using js validation -->
+    <!-- also want to be able to send this info to the hearsay email -->
 
   </div>
 
-
-    <!-- <?php
+    <?php
     include "includes/footer.php";
-    ?> -->
+    ?>
 
   </body>

@@ -1,5 +1,4 @@
-/** all*/
-
+/** all */
 .body_container {
   width: 70%;
   margin: 0px 15%;
@@ -13,6 +12,7 @@ h1 {
 p, span {
   font-family: "Khula", sans-serif;
 }
+
 /** navigation bar*/
 
 img[src="images/frontpage-cover.jpg"] {

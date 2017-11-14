@@ -11,6 +11,21 @@
   width: 92%;
 }
 
+.profile {
+  position: relative;
+  width: 100%;
+}
+
+.profile p {
+   position: absolute;
+   width: 92%;
+   margin: 0 4%;
+   text-align: center;
+   padding: 10px 0;
+   bottom: 13px;
+   background-color: rgba(255, 255, 255, 0.5);
+}
+
 .first{
   grid-column: 1;
 }

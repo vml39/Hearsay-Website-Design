@@ -1,10 +1,5 @@
 $(document).ready(function() {
 
-  // // change border of boxes to purple on click
-  // $(".formInput").click( function () {
-  //   $(".formInput").css("border", "1px solid purple");
-  // });
-
   $("#contactForm").on("submit", function() {
     // assume the form is valid, unless we find an invalid field
     formValid = true;

@@ -5,18 +5,19 @@
   <meta charset="utf-8">
   <title>Hearsay A Cappella</title>
   <link rel="stylesheet" type ="text/css" href="styles/all.css" media="all"/>
-  <link rel="stylesheet" type ="text/css" href="styles/all.css" media="all"/>
-  <link rel="stylesheet" type ="text/css" href="styles/members.css" media="all"/>
+  <link rel="stylesheet" type ="text/css" href="styles/contact.css" media="all"/>
   <script src="scripts/jquery-3.2.1.min.js" type="text/javascript"></script>
-  <script src="scripts/members.js" type="text/javascript"></script>
+  <script src="scripts/alumni.js" type="text/javascript"></script>
   <link href="https://fonts.googleapis.com/css?family=Khula" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Imprima" rel="stylesheet">
 </head>
 
 <body>
-  <!-- <?php
+  <?php
   include "includes/navigation.php";
-  ?> -->
+  ?>
+
+  <div class="body_container">
 
   <h1>Alumnae</h1>
   <p>If you are an alumna of Hearsay, we would love to hear from you! Please
@@ -25,14 +26,20 @@
     all things Hearsay.</p>
 
     <p>Sign up for our listserve!</p>
-    <span>Email: </span><input id="alum_email" name="email" type="email">
+    <form id="alum_contact" novalidate>
+      <span>Email: </span><input id="alum_email" name="email" type="email" required>
+      <button type="submit" class="submit">Submit</button>
+      <span class="errorContainer hiddenError" id="alumEmailError">
+        <br/>Please enter a valid email.
+      </span>
+    </form>
 
-    <!-- need to validate email; include source! -->
-    
+    <!-- still need to include php validation; currently using js validation -->
+
   </div>
 
-  <!-- <?php
+  <?php
   include "includes/footer.php";
-  ?> -->
+  ?>
 
 </body>

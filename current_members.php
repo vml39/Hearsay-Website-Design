@@ -13,33 +13,37 @@
 </head>
 
 <body>
-  <!-- <?php
+  <?php
    include "includes/navigation.php";
-   ?> -->
+   ?>
 
    <div class="body_container">
 
      <h1>Current Members</h1>
 
+     <!-- other members will be added on later -->
+
      <!-- display members in a grid fashion with three profiles per grid -->
-     <!-- tried to do a popup modal but still trying to figure it out -->
+     <!-- tried to do a popup modal but still trying to figure it out, using https://www.w3schools.com/howto/howto_css_modals.asp -->
      <div class="container">
       <div class="first profile">
-        <!-- trigger the modal
-        <button id="modal_btn"> -->
-          <img alt="" src="images/gray.jpg">
-        <!-- </button>
-        modal
-        <div id="modal">
-        modal content
-          <div id="modal_content">
+        <!-- trigger the modal -->
+        <!-- <button id="modal_btn"> -->
+          <img alt="" src="images/members/belan.png">
+          <p>Belan Antensaye, Co-Social Chair</p>
+        <!-- </button> -->
+        <!-- modal -->
+        <!-- <div id="modal"> -->
+        <!-- modal content -->
+          <!-- <div id="modal_content">
             <span class="close">&times;</span>
             <p>some stuff that pops up</p>
           </div>
         </div> -->
       </div>
       <div class="second profile">
-        <img alt="" src="images/gray.jpg">
+        <img alt="" src="images/members/veronica.jpg">
+        <p>Veronica Dickson, Co-Social Chair</p>
       </div>
       <div class="third profile">
         <img alt="" src="images/gray.jpg">
@@ -57,10 +61,56 @@
         <img alt="" src="images/gray.jpg">
       </div>
     </div>
+
+    <div class="container">
+     <div class="first profile">
+       <img alt="" src="images/gray.jpg">
+     </div>
+     <div class="second profile">
+       <img alt="" src="images/gray.jpg">
+     </div>
+     <div class="third profile">
+       <img alt="" src="images/gray.jpg">
+     </div>
+   </div>
+
+   <div class="container">
+    <div class="first profile">
+      <img alt="" src="images/gray.jpg">
+    </div>
+    <div class="second profile">
+      <img alt="" src="images/gray.jpg">
+    </div>
+    <div class="third profile">
+      <img alt="" src="images/gray.jpg">
+    </div>
   </div>
 
-   <!-- <?php
+  <div class="container">
+   <div class="first profile">
+     <img alt="" src="images/gray.jpg">
+   </div>
+   <div class="second profile">
+     <img alt="" src="images/gray.jpg">
+   </div>
+   <div class="third profile">
+     <img alt="" src="images/gray.jpg">
+   </div>
+  </div>
+
+  <div class="container">
+   <div class="first profile">
+     <img alt="" src="images/gray.jpg">
+   </div>
+   <div class="second profile">
+     <img alt="" src="images/gray.jpg">
+   </div>
+  </div>
+
+  </div>
+
+   <?php
    include "includes/footer.php";
-   ?> -->
+   ?>
 
 </body>
