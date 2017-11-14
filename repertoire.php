@@ -115,4 +115,9 @@
   <p>Our very special Alumnae Song</p><br>
 
 </body>
+
+<?php
+include "includes/footer.php";
+?>
+
 </html>
