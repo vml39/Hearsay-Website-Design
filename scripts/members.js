@@ -1,29 +1,16 @@
 $(document).ready(function() {
 
-  // Get the modal
-  var modal = document.getElementById('modal');
-
-  // Get the button that opens the modal
-  var btn = document.getElementById("modal_btn");
-
-  // Get the <span> element that closes the modal
-  var span = document.getElementsByClassName("close")[0];
-
-  // When the user clicks on the button, open the modal
-  btn.click( function() {
-      modal.css("display", "block");
+// how to correspond people to their information profiles so that I dont have to do this
+// can I mix php with jquery??
+  $("#belan").click( function(){
+      $("#belan_info").toggle();
+      // also need to hide the other profiles how to only have one profile open at the same time
   });
-
-  // When the user clicks on <span> (x), close the modal
-  span.click( function() {
-      modal.css("display", "none");
+  $("#veronica").click( function(){
+      $("#veronica_info").toggle();
   });
-
-  // When the user clicks anywhere outside of the modal, close it
-  $(window).click( function(event) {
-      if (event.target == modal) {
-          modal.css("display", "none");
-      }
+  $("#katie").click( function(){
+      $("#katie_info").toggle();
   });
 
 });

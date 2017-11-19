@@ -22,101 +22,104 @@
      <h1>Meet the Hearsayers</h1>
 
      <!-- display members in a grid fashion with three profiles per grid -->
-     <!-- tried to do a popup modal but still trying to figure it out, using https://www.w3schools.com/howto/howto_css_modals.asp -->
      <div class="container">
       <div class="first profile">
-        <!-- trigger the modal -->
-        <!-- <button id="modal_btn"> -->
-          <img alt="" src="images/members/belan.png">
-          <p>Belan Antensaye, Co-Social Chair</p>
-        <!-- </button> -->
-        <!-- modal -->
-        <!-- <div id="modal"> -->
-        <!-- modal content -->
-          <!-- <div id="modal_content">
-            <span class="close">&times;</span>
-            <p>some stuff that pops up</p>
-          </div>
-        </div> -->
+          <img id="belan" alt="" src="images/members/belan.png">
+          <p class="name">Belan Antensaye, Co-Social Chair</p>
       </div>
       <div class="second profile">
-        <img alt="" src="images/members/veronica.jpg">
-        <p>Veronica Dickson, Co-Social Chair</p>
+        <img  id="veronica" alt="" src="images/members/veronica.jpg">
+        <p class="name">Veronica Dickson, Co-Social Chair</p>
       </div>
       <div class="third profile">
-        <img alt="" src="images/members/katie.jpeg">
-        <p>Katie O’Neill, Musical Director</p>
+        <img id="katie" alt="" src="images/members/katie.jpeg">
+        <p class="name">Katie O’Neill, Musical Director</p>
       </div>
      </div>
+
+     <div class="member_info">
+       <div class="member" id="belan_info">
+         <h1>Belan Antensaye</h1>
+         <p class="info">Year: 2018<br/>Major: Biology and Society<br/>Joined: Fall 2014<br/>Voice Part: Alto<br/>Audition Song: Wayfaring Stranger by Ed Sheeran<br/>Campus Involvement: Alpha Phi Omega, Cornell Arts and Sciences Ambassador, Cornell Tradition Fellow, Cornell First in Class<br/>Fun Fact: Belan had swine flu and cracked a rib while coughing (she’s better now).</p>
+       </div>
+       <div class="member" id="veronica_info">
+         <h1>Veronica Dickson</h1>
+         <p class="info">Year: 2018<br/>Major: ILR<br/>Joined: Fall 2014<br/>Voice Part: Alto<br/>Audition Song: Rolling In The Deep by Adele<br/>Campus Involvement: Roosevelt Institute, Facilitator for the Intergroup Dialogue Project, Cornell Radio DJ, Pi Beta Phi, PorColombia<br/>Fun Fact: Veronica has lived in six different cities and is fluent in Spanish.</p>
+       </div>
+       <div class="member" id="katie_info">
+         <h1>Katie O’Neill</h1>
+         <p class="info">Year: 2018<br/>Major: Civil Engineering<br/>Joined: Fall 2014<br/>Voice Part: Soprano 1<br/>Audition Song: Last Love Song by ZZ Ward<br/>Campus Involvement: Concrete Canoe Team, American Society for Civil Engineers. <br/>Fun Fact: Katie plays six different instruments.</p>
+       </div>
+      </div>
 
      <div class="container">
       <div class="first profile">
         <img alt="" src="images/members/chrissy.jpg">
-        <p>Chrissy Chen, Co-Social Chair</p>
+        <p class="name">Chrissy Chen, Co-Social Chair</p>
       </div>
       <div class="second profile">
         <img alt="" src="images/members/samantha.jpg">
-        <p>Samantha Li, President</p>
+        <p class="name">Samantha Li, President</p>
       </div>
       <div class="third profile">
         <img alt="" src="images/members/anna.jpg">
-        <p>Anna Bores, Assistant Musical Director</p>
+        <p class="name">Anna Bores, Assistant Musical Director</p>
       </div>
     </div>
 
     <div class="container">
      <div class="first profile">
        <img alt="" src="images/members/lydia.png">
-       <p>Lydia Clemente</p>
+       <p class="name">Lydia Clemente</p>
      </div>
      <div class="second profile">
        <img alt="" src="images/members/audrey.jpg">
-       <p>Audrey Kennedy, Vice President</p>
+       <p class="name">Audrey Kennedy, Vice President</p>
      </div>
      <div class="third profile">
        <img alt="" src="images/members/danica.jpg">
-       <p>Danica Lee, Business Manager</p>
+       <p class="name">Danica Lee, Business Manager</p>
      </div>
    </div>
 
    <div class="container">
     <div class="first profile">
       <img alt="" src="images/members/quyen.jpg">
-      <p>Quyen Nguyen, Marketing Chair</p>
+      <p class="name">Quyen Nguyen, Marketing Chair</p>
     </div>
     <div class="second profile">
       <img alt="" src="images/members/lily.jpg">
-      <p>Lily Pagan</p>
+      <p class="name">Lily Pagan</p>
     </div>
     <div class="third profile">
       <img alt="" src="images/members/mihoko.jpg">
-      <p>Mihoko Sakanaka</p>
+      <p class="name">Mihoko Sakanaka</p>
     </div>
   </div>
 
   <div class="container">
    <div class="first profile">
      <img alt="" src="images/members/sam_ng.jpg">
-     <p>Samantha Ng, Social Media Chair</p>
+     <p class="name">Samantha Ng, Social Media Chair</p>
    </div>
    <div class="second profile">
      <img alt="" src="images/members/vanessa.jpg">
-     <p>Vanessa Okoyeh</p>
+     <p class="name">Vanessa Okoyeh</p>
    </div>
    <div class="third profile">
      <img alt="" src="images/members/chase.jpg">
-     <p>Chase Kauder</p>
+     <p class="name">Chase Kauder</p>
    </div>
   </div>
 
   <div class="container">
    <div class="first profile">
      <img alt="" src="images/members/jillian.jpg">
-     <p>Jillian Berkowitz</p>
+     <p class="name">Jillian Berkowitz</p>
    </div>
    <div class="second profile">
      <img alt="" src="images/members/melissa.jpg">
-     <p>Melissa Gao</p>
+     <p class="name">Melissa Gao</p>
    </div>
   </div>
 

@@ -18,106 +18,108 @@
   ?>
 
   <div id="main">
-  <h1 id="title">Current Repertoire</h1>
+    <h1 id="title">Current Repertoire</h1>
 
-  <p><strong>Hymn For The Weekend</strong></p>
+    <p><strong>Hymn For The Weekend</strong></p>
 
-  <p>OPB: Coldplay</p>
+    <p>OPB: Coldplay</p>
 
-  <p>Arranged By: Katie O’Neill</p>
+    <p>Arranged By: Katie O’Neill</p>
 
-  <p>Solo: Quyen Nguyen</p><br>
-
-
-  <p><strong>Be Your Love</strong></p>
-
-  <p>OPB: Bishop Briggs</p>
-
-  <p>Arranged By: Anna Bores</p>
-
-  <p>Solo: Lydia Clemente</p><br>
+    <p>Solo: Quyen Nguyen</p><br>
 
 
-  <p><strong>Hurricane Drunk</strong></p>
+    <p><strong>Be Your Love</strong></p>
 
-  <p>OPB: Florence + The Machine</p>
+    <p>OPB: Bishop Briggs</p>
 
-  <p>Arranged By: Katie O’Neill</p>
+    <p>Arranged By: Anna Bores</p>
 
-  <p>Solo: Michelle Fleurantin</p><br>
-
-
-  <p><strong>Hear The Bells</strong></p>
-
-  <p>OPB: Naomi Scott</p>
-
-  <p>Arr: Katie O’Neill</p>
-
-  <p>Solo: Danica Lee</p><br>
+    <p>Solo: Lydia Clemente</p><br>
 
 
-  <p><strong>Hold On, We’re Going Home</strong></p>
+    <p><strong>Hurricane Drunk</strong></p>
 
-  <p>OPB: Drake</p>
+    <p>OPB: Florence + The Machine</p>
 
-  <p>Arranged by: Michelle Fleurantin</p>
+    <p>Arranged By: Katie O’Neill</p>
 
-  <p>Solo: Anna Bores</p><br>
-
-
-  <p><strong>Drink You Gone</strong></p>
-
-  <p>OPB: Ingrid Michaelson</p>
-
-  <p>Arranged by: Rachel Connolly</p>
-
-  <p>Solo: Rachel Connolly</p><br>
+    <p>Solo: Michelle Fleurantin</p><br>
 
 
-  <p><strong>Greedy</strong></p>
+    <p><strong>Hear The Bells</strong></p>
 
-  <p>OPB: Ariana Grande</p>
+    <p>OPB: Naomi Scott</p>
 
-  <p>Arranged by: Danica Lee</p>
+    <p>Arr: Katie O’Neill</p>
 
-  <p>Solo: Samantha Li</p><br>
-
-
-  <p><strong>Fantasy</strong></p>
-
-  <p>OPB: Alina Baraz</p>
-
-  <p>Arranged by: Rachel Connolly</p>
-
-  <p>Solo: Lily Pagan</p><br>
+    <p>Solo: Danica Lee</p><br>
 
 
-  <p><strong>Harlem</strong></p>
+    <p><strong>Hold On, We’re Going Home</strong></p>
 
-  <p>OPB: Cathedrals</p>
+    <p>OPB: Drake</p>
 
-  <p>Arranged by: Katie O’Neill</p><br>
+    <p>Arranged by: Michelle Fleurantin</p>
 
-
-  <p><strong>Soldier</strong></p>
-
-  <p>OPB: Myami</p>
-
-  <p>Arranged by: Rachel Connolly</p>
-
-  <p>Solo: Katie O’Neill, Michelle Fleurantin</p><br>
+    <p>Solo: Anna Bores</p><br>
 
 
-  <p><strong>Carry On My Wayward Son</strong></p>
+    <p><strong>Drink You Gone</strong></p>
 
-  <p>OPB: Kansas</p>
+    <p>OPB: Ingrid Michaelson</p>
 
-  <p>Our very special Alumnae Song</p><br>
+    <p>Arranged by: Rachel Connolly</p>
 
-</body>
+    <p>Solo: Rachel Connolly</p><br>
 
-<?php
-include "includes/footer.php";
-?>
 
-</html>
+    <p><strong>Greedy</strong></p>
+
+    <p>OPB: Ariana Grande</p>
+
+    <p>Arranged by: Danica Lee</p>
+
+    <p>Solo: Samantha Li</p><br>
+
+
+    <p><strong>Fantasy</strong></p>
+
+    <p>OPB: Alina Baraz</p>
+
+    <p>Arranged by: Rachel Connolly</p>
+
+    <p>Solo: Lily Pagan</p><br>
+
+
+    <p><strong>Harlem</strong></p>
+
+    <p>OPB: Cathedrals</p>
+
+    <p>Arranged by: Katie O’Neill</p><br>
+
+
+    <p><strong>Soldier</strong></p>
+
+    <p>OPB: Myami</p>
+
+    <p>Arranged by: Rachel Connolly</p>
+
+    <p>Solo: Katie O’Neill, Michelle Fleurantin</p><br>
+
+
+    <p><strong>Carry On My Wayward Son</strong></p>
+
+    <p>OPB: Kansas</p>
+
+    <p>Our very special Alumnae Song</p><br>
+
+  </div>
+
+    <?php
+    include "includes/footer.php";
+    ?>
+
+  </body>
+
+  </html>
