@@ -1,9 +1,5 @@
-<div class="navlogo">
-      <a href="index.php"><img src='images/logo.png' alt="logo"></a>
-  </div>
 
 <div class="nav">
-  <ul>
     <ul>
       <li><a href="index.php">HOME</a></li>
       <li><a href="current_members.php">MEMBERS</a></li>

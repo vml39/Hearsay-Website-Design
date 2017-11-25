@@ -21,9 +21,10 @@ img[src="images/frontpage-cover.jpg"] {
   z-index: 0;
 }
 
-img[src="images/page-cover.png"] {
+img[src="images/pages-cover.png"] {
   width: 100%;
-  padding: 0px;
+  top: 0;
+  padding: 0;
 }
 
 img[src="images/logo.png"] {
@@ -66,39 +67,34 @@ img[src="images/logo.png"] {
   color: #662d91;
 }
 
-.navlogo {
-  padding: 15px;
-  display: inline-block;
-  position: fixed;
-  text-align: left;
-  width: 10%;
-}
-
 .nav ul {
-  margin: auto;
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  top: 0;
   overflow: hidden;
   text-align: center;
   position: fixed;
   width: 100%;
-  padding: 10px;
+  background-color: #F7F7F7;
+  opacity: 0.5;
 }
 
 .nav li {
   display: inline-block;
-  padding: 0;
 }
 
 .nav li a {
-  display: block;
   font-family: "Khula";
   font-size: 10pt;
-  color: white;
+  font-weight: bold;
+  color: #662d91;
   padding: 10px 10px;
   text-decoration: none;
 }
 
 .nav a:hover {
-  color: #662d91;
+  text-decoration: overline;
 }
 
 /** footer */
