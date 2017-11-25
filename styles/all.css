@@ -33,7 +33,7 @@ img[src="images/logo.png"] {
 
 .logo-index {
     margin: auto;
-    position: absolute;
+    position: fixed;
     z-index: 1;
     top: 20%;
     left: 30%;
@@ -61,10 +61,11 @@ img[src="images/logo.png"] {
   color: white;
   padding: 10px 10px;
   text-decoration: none;
+  opacity: 0.6;
 }
 
 .nav-index a:hover {
-  color: #662d91;
+  opacity: 1;
 }
 
 .nav ul {
@@ -88,13 +89,14 @@ img[src="images/logo.png"] {
   font-family: "Khula";
   font-size: 10pt;
   font-weight: bold;
-  color: #662d91;
+  color: black;
   padding: 10px 10px;
   text-decoration: none;
+  opacity: 1;
 }
 
 .nav a:hover {
-  text-decoration: overline;
+  color: #662d91;
 }
 
 /** footer */
