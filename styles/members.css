@@ -13,19 +13,7 @@
   margin: auto;
 }*/
 
-#belan_info {
-  display: none;
-  width: 90%;
-  margin: auto;
-}
-
-#veronica_info {
-  display: none;
-  width: 90%;
-  margin: auto;
-}
-
-#katie_info {
+.member {
   display: none;
   width: 90%;
   margin: auto;
