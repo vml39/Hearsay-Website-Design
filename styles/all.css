@@ -106,10 +106,9 @@ img[src="images/pages-cover.jpg"] {
   overflow: hidden;
   background-color: #f7f7f7;
   width: 400px;
-  padding: 0;
   margin: 0 auto;
   height: 100px;
-  /*padding-left: 43%;*/
+  padding-left: 13%;
 }
 
 .footer li {
@@ -120,7 +119,7 @@ img[src="images/pages-cover.jpg"] {
 }
 
 .footer li a {
-    font-size: 25pt;
+    font-size: 30pt;
     color: #000;
     text-align: center;
     padding: 0;
@@ -129,6 +128,25 @@ img[src="images/pages-cover.jpg"] {
 .footer a:hover {
   color: #662d91;
 }
+
+#spotify li {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5%;
+}
+
+#spotify a:hover {
+    color:  #ABAAAA;
+  }
+
+#spotify li a {
+  font-size: 30pt;
+  color: #ABAAAA;
+  text-align: center;
+  padding: 0;
+}
+
 
 /** index.php */
 #about p{

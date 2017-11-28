@@ -9,8 +9,8 @@
     <li><a href="https://www.facebook.com/HearsayACappella/"> <i class="fa fa-facebook-square fa-1x"></i> </a></li>
     <li><a href="https://www.youtube.com/user/HearsayACappella"><i class="fa fa-youtube-square fa-1x"></i> </a></li>
 <div id="spotify">
-    <li><a href=""><i class="fa fa-spotify fa-1x"></i></a> Coming Out Soon!</li>
-  </ul>
+    <li><a href=""><i class="fa fa-spotify fa-1x" title="Coming out soon!"></i></a></li>
   </div>
+  </ul>
 </div>
 </html>

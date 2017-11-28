@@ -35,7 +35,7 @@
     </form>
 
     <!-- still need to include php validation; currently using js validation -->
-
+  </br>
   </div>
 
   <?php
