@@ -31,19 +31,6 @@ img[src="images/pages-cover.jpg"] {
   padding: 0px;
 }
 
-img[src="images/logo.png"] {
-  width: 100%;
-}
-
-.logo-index {
-    margin: auto;
-    position: fixed;
-    z-index: 1;
-    top: 20%;
-    left: 30%;
-    width: 40%;
-}
-
 .nav-index ul {
   margin: auto;
   overflow: hidden;
