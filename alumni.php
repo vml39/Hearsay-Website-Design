@@ -35,7 +35,11 @@
     </form>
 
     <!-- still need to include php validation; currently using js validation -->
-
+  </br>
+  </br>
+  </br>
+  </br>
+  </br>
   </div>
 
   <?php

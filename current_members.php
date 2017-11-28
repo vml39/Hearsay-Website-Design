@@ -4,8 +4,8 @@
 <head>
   <meta charset="utf-8">
   <title>Hearsay A Cappella</title>
-  <link rel="stylesheet" type ="text/css" href="styles/all.css" media="all"/>
   <link rel="stylesheet" type ="text/css" href="styles/members.css" media="all"/>
+  <link rel="stylesheet" type ="text/css" href="styles/all.css" media="all"/>
   <script src="scripts/jquery-3.2.1.min.js" type="text/javascript"></script>
   <script src="scripts/members.js" type="text/javascript"></script>
   <link href="https://fonts.googleapis.com/css?family=Khula" rel="stylesheet">
@@ -195,8 +195,9 @@
 
   </div>
 
-   <?php
-   include "includes/footer.php";
-   ?>
+      <?php
+      include "includes/footer.php";
+      ?>
+
 
 </body>

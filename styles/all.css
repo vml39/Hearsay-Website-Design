@@ -36,19 +36,6 @@ img[src="images/pages-cover.jpg"] {
   padding: 0px;
 }
 
-img[src="images/logo.png"] {
-  width: 100%;
-}
-
-.logo-index {
-    margin: auto;
-    position: fixed;
-    z-index: 1;
-    top: 20%;
-    left: 30%;
-    width: 40%;
-}
-
 .nav-index ul {
   margin: auto;
   overflow: hidden;
@@ -87,6 +74,7 @@ img[src="images/logo.png"] {
   width: 100%;
   background-color: #F7F7F7;
   opacity: 0.5;
+  z-index: 1;
 }
 
 .nav li {
@@ -115,19 +103,16 @@ img[src="images/logo.png"] {
   margin: auto;
   padding: 0;
   display: block;
-  width: 100%;
 }
 
 .footer ul {
   list-style-type: none;
-  bottom: 20%;
   overflow: hidden;
   background-color: #f7f7f7;
   width: 400px;
-  padding: 0;
-  margin: 0 auto;
+  margin: auto;
   height: 100px;
-  /*padding-left: 43%;*/
+  padding-left: 13%;
 }
 
 .footer li {
@@ -138,7 +123,7 @@ img[src="images/logo.png"] {
 }
 
 .footer li a {
-    font-size: 25pt;
+    font-size: 30pt;
     color: #000;
     text-align: center;
     padding: 0;
@@ -147,6 +132,25 @@ img[src="images/logo.png"] {
 .footer a:hover {
   color: #662d91;
 }
+
+#spotify li {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5%;
+}
+
+#spotify a:hover {
+    color:  #ABAAAA;
+  }
+
+#spotify li {
+  font-size: 30pt;
+  color: #ABAAAA;
+  text-align: center;
+  padding: 0;
+}
+
 
 /** index.php */
 #about p{

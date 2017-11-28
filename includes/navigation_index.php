@@ -14,7 +14,4 @@
   <div class="frontcover">
     <img src="images/frontpage-cover.jpg" alt="frontpage-cover">
   </div>
-  <div class="logo-index">
-      <a href="index.php"><img src='images/logo.png' alt="logo"></a>
-  </div>
 </div>

@@ -23,8 +23,4 @@
    <?php
    include "includes/footer.php";
    ?>
-<!--- When you try to scroll sideways, there is a significant amount of space
-to the right of the page even though everything is set to width: 100%. Is there anyway
-to fix this? Thank you!-->
-
 </body>
