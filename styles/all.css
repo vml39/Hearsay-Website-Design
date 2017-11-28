@@ -14,6 +14,11 @@ h1 {
   font-family: "Imprima", sans-serif;
 }
 
+h2 {
+  text-align: center;
+  font-family: "Imprima", sans-serif;
+}
+
 p, span {
   font-family: "Khula", sans-serif;
 }
@@ -160,14 +165,42 @@ img[src="images/logo.png"] {
 }
 
 /** faqs.php, used for js */
-#faqs h1 {
+#faqs h2 {
   margin-bottom: 30px;
 }
 
-#faqs h1:hover {
+#faqs h2:hover {
   color: #662d91;
 }
 
 #faqs p {
   display: none;
+}
+
+/** styling for reportoire.php */
+#left {
+  float:left;
+  width: 33%;
+  background-color: white;
+  text-align: center;
+}
+
+#center {
+  float: left;
+  width: 33%;
+  background-color: white;
+  text-align: center;
+}
+
+#right {
+  float: left;
+  width: 33%;
+  background-color: white;
+  text-align: center;
+}
+
+/** youtube link for repertoire.php */
+#youtube {
+  text-align: center;
+  clear: both;
 }
