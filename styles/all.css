@@ -158,3 +158,16 @@ img[src="images/logo.png"] {
 #title {
   font-size: 300%;
 }
+
+/** faqs.php, used for js */
+#faqs h1 {
+  margin-bottom: 30px;
+}
+
+#faqs h1:hover {
+  color: #662d91;
+}
+
+#faqs p {
+  display: none;
+}
