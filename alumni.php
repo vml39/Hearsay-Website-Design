@@ -19,7 +19,7 @@
 
   <div class="body_container">
 
-  <h1>Alumnae</h1>
+  <h1>Alumni</h1>
   <p>If you are an alumna of Hearsay, we would love to hear from you! Please
     email hearsayacappella@gmail.com and let us know what you are up to.
     We will also add you to our alumnae listserve to keep you up to date with

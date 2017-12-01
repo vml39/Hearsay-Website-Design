@@ -1,4 +1,5 @@
 <?php
+ session_start();
  $name = $_REQUEST["name"];
  $email = $_REQUEST["email"];
  $listserv = $_REQUEST["listserv"];
