@@ -17,6 +17,11 @@
 
   <h1 id="title">Current Repertoire</h1>
 
+  <div id="youtube">
+  <h2>Make sure to check out our previous performances on
+    <a href="https://www.youtube.com/user/HearsayACappella">YouTube!</a></h2>
+  </div>
+
   <div id="left">
 
   <h2>Hymn For The Weekend</h2>
@@ -121,11 +126,6 @@
 
   <p>Our very special Alumnae Song</p>
 
-  </div>
-
-  <div id="youtube">
-  <h2>Make sure to check out our previous performances on
-    <a href="https://www.youtube.com/user/HearsayACappella">YouTube!</a></h2>
   </div>
 
 <?php

@@ -45,8 +45,8 @@
     <title>Hearsay A Cappella</title>
     <link rel="stylesheet" type ="text/css" href="styles/all.css" media="all"/>
     <link rel="stylesheet" type ="text/css" href="styles/contact.css" media="all"/>
-    <script src="scripts/jquery-3.2.1.min.js" type="text/javascript"></script>
-    <script src="scripts/contact.js" type="text/javascript"></script>
+    <!-- <script src="scripts/jquery-3.2.1.min.js" type="text/javascript"></script>
+    <script src="scripts/contact.js" type="text/javascript"></script> -->
     <link href="https://fonts.googleapis.com/css?family=Khula" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Imprima" rel="stylesheet">
   </head>
@@ -77,7 +77,7 @@
           <br/>A valid email is required.
         </span>
 
-        <input type="checkbox" name="listserv" value="No"><span>Would you like to join our listserve?</span><br/>
+        <input type="checkbox" name="listserv" value="No"><span>Would you like to join our listserv?</span><br/>
         <!-- if isset, then send the email to the hearsay listserv -->
 
         <br/><span>Message</span><br/>

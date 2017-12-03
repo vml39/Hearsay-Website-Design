@@ -52,7 +52,7 @@ img[src="images/pages-cover.jpg"] {
 
 .nav-index li a {
   display: block;
-  font-family: "Khula";
+  font-family: "Khula", sans-serif;
   font-size: 10pt;
   color: white;
   padding: 10px 10px;
@@ -83,7 +83,7 @@ img[src="images/pages-cover.jpg"] {
 }
 
 .nav li a {
-  font-family: "Khula";
+  font-family: "Khula", sans-serif;
   font-size: 10pt;
   font-weight: bold;
   color: black;
@@ -151,10 +151,14 @@ img[src="images/pages-cover.jpg"] {
   padding: 0;
 }
 
-
 /** index.php */
-#about p{
+#perf {
   text-align: center;
+}
+
+#about h1 {
+  text-align: center;
+  font-family: "Imprima", sans-serif;
 }
 
 /** faqs.php, auditions.php, repertoire.php */

@@ -54,3 +54,7 @@
 .info h1{
   text-align: center;
 }
+
+.body_container img:hover {
+  opacity: 0.6;
+}
