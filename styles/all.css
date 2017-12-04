@@ -181,7 +181,7 @@ img[src="images/pages-cover.jpg"] {
   color: #662d91;
 }
 
-#faqs p {
+.answer {
   display: none;
 }
 

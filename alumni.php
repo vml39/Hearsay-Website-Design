@@ -49,10 +49,10 @@
   <h1>Alumni</h1>
   <p>If you are an alumna of Hearsay, we would love to hear from you! Please
     email hearsayacappella@gmail.com and let us know what you are up to.
-    We will also add you to our alumnae listserve to keep you up to date with
+    We will also add you to our alumnae listserv to keep you up to date with
     all things Hearsay.</p>
 
-    <p>Sign up for our listserve!</p>
+    <p>Sign up for our listserv!</p>
     <form id="alum_contact" novalidate>
       <span>Email: </span><input id="alum_email" name="email" type="email" required>
       <button type="submit" class="submit">Submit</button>
