@@ -1,3 +1,30 @@
+<?php
+  // Stores the name of the class for hidden error messages
+  $HIDDEN_ERROR_CLASS = "hiddenError";
+
+  // request all of the variables
+  $email = $_REQUEST["alum_email"];
+  $submit = $_REQUEST["submit"];
+
+  if (isset($submit)) {
+
+    // validating each field
+    $emailValid = !empty($email) && filter_var($email, FILTER_VALIDATE_EMAIL);
+
+    if ($emailValid) {
+      session_start();
+      $_SESSION['email'] = $email;
+
+      // redirect to home page
+      header("Location: index.php");
+      return;
+    }
+  } else {
+    // no form submitted, default behavior
+    $emailValid = true;
+  }
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -6,8 +33,8 @@
   <title>Hearsay A Cappella</title>
   <link rel="stylesheet" type ="text/css" href="styles/all.css" media="all"/>
   <link rel="stylesheet" type ="text/css" href="styles/contact.css" media="all"/>
-  <script src="scripts/jquery-3.2.1.min.js" type="text/javascript"></script>
-  <script src="scripts/alumni.js" type="text/javascript"></script>
+  <!-- <script src="scripts/jquery-3.2.1.min.js" type="text/javascript"></script>
+  <script src="scripts/alumni.js" type="text/javascript"></script> -->
   <link href="https://fonts.googleapis.com/css?family=Khula" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Imprima" rel="stylesheet">
 </head>
