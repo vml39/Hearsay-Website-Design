@@ -179,6 +179,7 @@ img[src="images/pages-cover.jpg"] {
 
 #faqs h2:hover {
   color: #662d91;
+  cursor: pointer;
 }
 
 .answer {
