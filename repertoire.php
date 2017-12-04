@@ -128,6 +128,9 @@
 
   </div>
 
+  <div id="clearspace">
+  </div>
+
 <?php
 include "includes/footer.php";
 ?>

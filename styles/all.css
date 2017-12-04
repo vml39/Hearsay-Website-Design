@@ -208,8 +208,36 @@ img[src="images/pages-cover.jpg"] {
   text-align: center;
 }
 
+#clearspace {
+  clear: both;
+  float: none;
+}
+
 /** youtube link for repertoire.php */
 #youtube {
   text-align: center;
   clear: both;
+}
+
+@media screen and (max-width: 700px) {/** styling for reportoire.php */
+#left {
+  float: none;
+  margin: auto;
+  background-color: white;
+  text-align: center;
+}
+
+#center {
+  float: none;
+  margin: auto;
+  background-color: white;
+  text-align: center;
+}
+
+#right {
+  margin: auto;
+  float: none;
+  background-color: white;
+  text-align: center;
+}
 }
