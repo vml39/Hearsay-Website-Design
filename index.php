@@ -7,6 +7,7 @@
   <link rel="stylesheet" type ="text/css" href="styles/all.css" media="all"/>
   <link href="https://fonts.googleapis.com/css?family=Khula" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Qwigley" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Imprima" rel="stylesheet">
 </head>
 
 <body id="about">

@@ -219,7 +219,72 @@ img[src="images/pages-cover.jpg"] {
   clear: both;
 }
 
-@media screen and (max-width: 700px) {/** styling for reportoire.php */
+@media screen and (max-width: 700px) {
+
+img[src="images/frontpage-cover.jpg"] {
+  width: 100%;
+  padding: 0px;
+}
+
+img[src="images/pages-cover.jpg"] {
+  width: 100%;
+  padding: 0px;
+}
+
+.nav-index ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  vertical-align: middle;
+  position: static;
+}
+
+.nav-index li {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  color: black;
+  background-color: white;
+  }
+
+.nav-index li a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  display: block;
+  width: 100%;
+  padding: 2px;
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  vertical-align: middle;
+  position: static;
+}
+
+.nav li {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  color: black;
+  background-color: white;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  display: block;
+  width: 100%;
+  padding: 2px;
+}
+
 #left {
   float: none;
   margin: auto;

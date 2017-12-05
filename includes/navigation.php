@@ -1,4 +1,3 @@
-
 <div class="nav">
     <ul>
       <li><a href="index.php">HOME</a></li>
