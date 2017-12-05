@@ -20,7 +20,7 @@ $(document).ready(function() {
      formValid = false;
     }
 
-    messageIsValid = $("#comments").prop("validity").valid;
+    messageIsValid = $("#message").prop("validity").valid;
     if(messageIsValid) {
      $("#messageError").hide();
     } else {

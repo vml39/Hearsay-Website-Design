@@ -186,6 +186,12 @@ img[src="images/pages-cover.jpg"] {
   display: none;
 }
 
+@media screen and (max-width: 700px) {
+  .answer {
+    display: block;
+  }
+}
+
 /** styling for reportoire.php */
 #left {
   float:left;

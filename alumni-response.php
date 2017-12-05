@@ -1,8 +1,6 @@
 <?php
- session_start();
- $name = $_SESSION["name"];
- $email = $_SESSION["email"];
- $listserv = $_SESSION["listserv"];
+session_start();
+$email = $_REQUEST["email"];
 ?>
 
 <!DOCTYPE html>
@@ -12,7 +10,9 @@
   <meta charset="utf-8">
   <title>Hearsay A Cappella</title>
   <link rel="stylesheet" type ="text/css" href="styles/all.css" media="all"/>
+  <link rel="stylesheet" type ="text/css" href="styles/contact.css" media="all"/>
   <script src="scripts/jquery-3.2.1.min.js" type="text/javascript"></script>
+  <script src="scripts/alumni.js" type="text/javascript"></script>
   <link href="https://fonts.googleapis.com/css?family=Khula" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Imprima" rel="stylesheet">
 </head>
@@ -24,10 +24,15 @@
 
   <div class="body_container">
 
-    <p>Thank you for your response, <?php echo( htmlspecialchars($name) ); ?>! We'll be contacting you back shortly at <?php echo( htmlspecialchars($email) ); ?>. <br/>Love, Hearsay A Cappella.</p>
+  <h1>Alumni</h1>
+  <p>Thank you for being a part of Hearsay! We have added <?php echo( htmlspecialchars($email) ); ?> to our mailing list.</p>
 
-</div>
-
+  </br>
+  </br>
+  </br>
+  </br>
+  </br>
+  </div>
 
   <?php
   include "includes/footer.php";
