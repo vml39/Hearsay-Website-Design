@@ -1,3 +1,42 @@
+<?php
+// Stores the name of the class for hidden error messages
+$HIDDEN_ERROR_CLASS = "hiddenError";
+
+// request all of the variables
+$name = $_REQUEST["name"];
+$email = $_REQUEST["email"];
+$listserv = $_REQUEST["listserv"];
+$message = $_REQUEST["message"];
+$submit = $_REQUEST["submit"];
+
+if (isset($submit)) {
+
+  // validating each field
+  $nameValid = !empty($name);
+  $emailValid = !empty($email) && filter_var($email, FILTER_VALIDATE_EMAIL);
+  $messageValid = !empty($message);
+
+  $formValid = $nameValid && $emailValid && $messageValid;
+
+  if ($formValid) {
+    session_start();
+    $_SESSION['name'] = $name;
+    $_SESSION['email'] = $email;
+    $_SESSION["listserv"] = $listserv;
+    $_SESSION['message'] = $message;
+
+    // redirect to contact-response.php
+    header("Location: contact-response.php");
+    return;
+  }
+} else {
+  // no form submitted, default behavior
+  $nameValid = true;
+  $emailValid = true;
+  $messageValid = true;
+}
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -23,18 +62,18 @@
 
     <p>We would love to hear from you. If you would like to know where we are performing next, information about our semester concert, would like us to perform at your event, or anything else, just ask!</p>
 
-    <form id="contactForm" method="post" action="contact-response.php" novalidate>
+    <form id="contactForm" method="post" action="contact.php" novalidate>
       <span>Name (required)</span><br/>
-      <input id="name" class="formInput" name="name" type="text" required>
+      <input id="name" class="formInput" name="name" type="text" value="<?php echo($name);?>" required>
       <!-- this error message is hidden by default -->
-      <span class="errorContainer hiddenError" id="nameError">
+      <span class="errorContainer <?php if ($nameValid) { echo($HIDDEN_ERROR_CLASS);} ?>" id="nameError">
         <br/>Name is required.
       </span>
 
       <br/><span>Email (required)</span><br/>
-      <input id="email" class="formInput" name="email" type="email" required>
+      <input id="email" class="formInput" name="email" type="email" value="<?php echo($email);?>" required>
       <!-- this error message is hidden by default -->
-      <span class="errorContainer hiddenError" id="emailError">
+      <span class="errorContainer <?php if ($emailValid) { echo($HIDDEN_ERROR_CLASS);} ?>" id="emailError">
         <br/>A valid email is required.
       </span>
 
@@ -42,9 +81,9 @@
       <!-- if isset, then send the email to the hearsay listserv -->
 
       <br/><span>Message</span><br/>
-      <textarea id="message" class="formInput" name="message" required></textarea>
+      <textarea id="message" class="formInput" name="message" required><?php echo($message);?></textarea>
       <!-- this error message is hidden by default -->
-      <span class="errorContainer hiddenError" id="messageError">
+      <span class="errorContainer <?php if ($messageValid) { echo($HIDDEN_ERROR_CLASS);} ?>" id="messageError">
         <br/>A message is required.
       </span>
 
