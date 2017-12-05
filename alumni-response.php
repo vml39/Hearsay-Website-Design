@@ -1,6 +1,6 @@
 <?php
 session_start();
-$email = $_REQUEST["email"];
+$email = $_SESSION["email"];
 ?>
 
 <!DOCTYPE html>
